@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<link rel="icon" type="image/ico" href="two.png" />
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script>
+
+function myfun(){
+
+	alert("successfully registered")
+}
+
+</script>
+
+</head>
+<body>
+<div class="header">
+     <h2>NFEST-2019</h2>
+
+</div>
+
+<div class="register">
+     
+     <form action="insert.php" method="POST">
+     <h2>REGISTRATION</h2>
+	 <input type="text" name="username" placeholder="Name"> 
+	 <input type="text" name="college" placeholder="College">
+	 <input type="email" name="email" placeholder="email">
+	 <input type="text" name="phone" placeholder="Mobile Number">
+
+	 <tr>
+	 	<td><b></b></td>
+	 	<td>
+	 	<select name=dept class="box1">
+	 		<option selected hidden value="" class="it" >Department</option>
+	 		<option value="cse" class="it">CSE</option>
+	 		<option value="mech" class="it">MECH</option>
+	 		<option value="civil" class="it">CIVIL</option>
+	 		<option value="eee" class="it">EEE</option>
+	 		<option value="ece" class="it">ECE</option>
+	 		
+	 	</select>	
+
+	 	</td>
+	 </tr>	
+	 <br/>
+	 <br/>
+	 <tr>
+	 	<td><b></b></td>
+	 	<td>
+	 	<select name=event class="box1">
+	 		<option selected hidden value="" class="it">Event</option>
+	 		<option value="Paper presentation" class="it">Paper presentation</option>
+	 		<option value="Short film" class="it">Short film</option>
+	 		<option value="Web development" class="it">Web development</option>
+	 		<option value="Think before code " class="it">Think before code </option>
+	 		<option value="Meme creator" class="it">Meme creator</option>
+	 		<option value="Workshop" class="it">Workshop</option>
+	 		<option value="Battle of brains" class="it">Battle of brains</option>
+	 		<option value="Project display" class="it">Project display</option>
+	 		<option value="Chat cracker(EEE" class="it">Chat cracker(EEE)</option>
+	 		<option value="CAD modeling" class="it">CAD modeling</option>
+	 		<option value="Technical quiz" class="it">Technical quiz</option>
+	 		<option value="Short film" class="it">Short film</option>
+	 		<option value="Web development" class="it">Web development</option>
+	 		<option value="Poster presentation" class="it">Poster presentation</option>
+	 		<option value="Code cracking" class="it">Code cracking</option>
+	 		<option value="Project expo(ECE)" class="it">Project expo(ECE)</option>
+	 		<option value="Analog league" class="it">Analog league</option>
+	 		<option value="Techno jam" class="it">Techno jam</option>
+	 		<option value="Chat crackers" class="it">Chat crackers</option>
+	 		<option value="3D modeling" class="it">3D modeling</option>
+	 		<option value="Water rocketry" class="it">Water rocketry</option>
+	 		
+	 	</select>	
+
+	 	</td>
+	 </tr>	
+
+	 <input type="submit" name="submit" placeholder="Mobile Number" onclick="myfun()">
+	 
+     </form>
+     
+</div>
+
+</body>
+</html>
